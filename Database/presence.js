@@ -26,7 +26,7 @@ if (!db) {
 const Presence = sequelize.define('Presence', {
  
   type: {
-    type: DataTypes.ENUM('composing', 'available','recording','non'),
+    type: DataTypes.ENUM('ecrit', 'enligne','enregistre','non'),
     defaultValue: 'non',
   },
 }, {
