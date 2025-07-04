@@ -18,7 +18,8 @@ let pri = config.PREFIX;
 let prefixe = (pri == "null" || pri == "undefined" || pri == "") ? "" : config.PREFIX;
 const { preseceRecupAction } = require("./Database/presence");
 const { Antilien } = require("./Database/antilien");
-const { Antibot } = require("./Database/antibot");
+const { Antibot } = require("./Database/antibot")
+const { session } = require("./Database/session");
 const { Sudo } = require("./Database/sudo")
 
 const { 
